@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7410C1041B4AB1A80017C553 /* GlobalLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410C1031B4AB1A80017C553 /* GlobalLocationManager.swift */; };
+		742881411B442BE600354FC5 /* AppFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742881401B442BE600354FC5 /* AppFunctions.swift */; };
+		742881431B442F2B00354FC5 /* PickLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742881421B442F2B00354FC5 /* PickLocationViewController.swift */; };
+		742881451B4442EE00354FC5 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742881441B4442EE00354FC5 /* AppExtensions.swift */; };
 		747E530A1B274F9200E92F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E53091B274F9200E92F19 /* AppDelegate.swift */; };
 		747E530C1B274F9200E92F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E530B1B274F9200E92F19 /* ViewController.swift */; };
 		747E530F1B274F9200E92F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747E530D1B274F9200E92F19 /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		747E53141B274F9200E92F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747E53121B274F9200E92F19 /* LaunchScreen.storyboard */; };
 		747E531F1B274F9300E92F19 /* GoogleMaps2Swift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E531E1B274F9300E92F19 /* GoogleMaps2Swift2Tests.swift */; };
 		747E532A1B274F9300E92F19 /* GoogleMaps2Swift2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747E53291B274F9300E92F19 /* GoogleMaps2Swift2UITests.swift */; };
+		74DE559F1B3B9220003C39CA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE559E1B3B9220003C39CA /* Enums.swift */; };
+		74DE55A11B3B92F8003C39CA /* MapRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE55A01B3B92F8003C39CA /* MapRequestModel.swift */; };
 		74FD3CC61B27530300878566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FD3CC51B27530300878566 /* Foundation.framework */; };
 		74FD3CC81B27530900878566 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FD3CC71B27530900878566 /* UIKit.framework */; };
 		74FD3CCA1B27531400878566 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74FD3CC91B27531400878566 /* CoreGraphics.framework */; };
@@ -39,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7410C1031B4AB1A80017C553 /* GlobalLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalLocationManager.swift; sourceTree = "<group>"; };
+		742881401B442BE600354FC5 /* AppFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFunctions.swift; sourceTree = "<group>"; };
+		742881421B442F2B00354FC5 /* PickLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickLocationViewController.swift; sourceTree = "<group>"; };
+		742881441B4442EE00354FC5 /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
 		747E53061B274F9200E92F19 /* GoogleMaps2Swift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMaps2Swift2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747E53091B274F9200E92F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		747E530B1B274F9200E92F19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +62,8 @@
 		747E53251B274F9300E92F19 /* GoogleMaps2Swift2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMaps2Swift2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		747E53291B274F9300E92F19 /* GoogleMaps2Swift2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaps2Swift2UITests.swift; sourceTree = "<group>"; };
 		747E532B1B274F9300E92F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DE559E1B3B9220003C39CA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		74DE55A01B3B92F8003C39CA /* MapRequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRequestModel.swift; sourceTree = "<group>"; };
 		74FD3CC51B27530300878566 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74FD3CC71B27530900878566 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74FD3CC91B27531400878566 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +127,11 @@
 				74FD3CCD1B27581800878566 /* OpenInGoogleMapsController.swift */,
 				74FD3CCF1B27582200878566 /* Application */,
 				747E530D1B274F9200E92F19 /* Main.storyboard */,
+				74DE55A01B3B92F8003C39CA /* MapRequestModel.swift */,
+				7410C1031B4AB1A80017C553 /* GlobalLocationManager.swift */,
+				74DE559E1B3B9220003C39CA /* Enums.swift */,
+				742881401B442BE600354FC5 /* AppFunctions.swift */,
+				742881441B4442EE00354FC5 /* AppExtensions.swift */,
 				747E53101B274F9200E92F19 /* Assets.xcassets */,
 				747E53121B274F9200E92F19 /* LaunchScreen.storyboard */,
 				74FD3CD01B27585300878566 /* Supporting Files */,
@@ -156,6 +173,7 @@
 			children = (
 				747E53091B274F9200E92F19 /* AppDelegate.swift */,
 				747E530B1B274F9200E92F19 /* ViewController.swift */,
+				742881421B442F2B00354FC5 /* PickLocationViewController.swift */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -300,7 +318,13 @@
 			files = (
 				747E530C1B274F9200E92F19 /* ViewController.swift in Sources */,
 				747E530A1B274F9200E92F19 /* AppDelegate.swift in Sources */,
+				7410C1041B4AB1A80017C553 /* GlobalLocationManager.swift in Sources */,
+				74DE559F1B3B9220003C39CA /* Enums.swift in Sources */,
+				742881431B442F2B00354FC5 /* PickLocationViewController.swift in Sources */,
+				742881411B442BE600354FC5 /* AppFunctions.swift in Sources */,
+				74DE55A11B3B92F8003C39CA /* MapRequestModel.swift in Sources */,
 				74FD3CCE1B27581800878566 /* OpenInGoogleMapsController.swift in Sources */,
+				742881451B4442EE00354FC5 /* AppExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,9 +465,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMaps2Swift2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = practice.GoogleMaps2Swift2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -452,9 +478,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMaps2Swift2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = practice.GoogleMaps2Swift2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
